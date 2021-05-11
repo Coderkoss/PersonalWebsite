@@ -1,0 +1,162 @@
+*{
+	margin:0;
+	padding: 0;
+	font-weight: normal;
+
+}
+html{
+
+}
+body {
+	height: 100%;
+}
+header{
+	background-color: #2098D1;
+	border:1px solid #2098D1;
+	position: relative;
+	margin:0 auto;
+	font-family: "Times New Roman", Times;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.banner{
+	position: relative;
+	margin:0 auto;
+	max-width: 1080px;
+	padding: 20px 20px 0 20px;
+}
+.headerText{
+	display: inline-block;
+    position: relative;	
+    color: white;
+    /*font-size: .8em;*/  
+}
+.navbar{	
+	display: inline-block;
+	position: relative;
+	margin-top: 2%;
+    float: right;	
+}
+.navbar ul{
+	list-style-type: none;	
+}
+.navbar li {		
+	display: inline-block;
+	padding-left:1vh; 
+}
+.navbar a{ 
+	position: relative;
+	color:white;
+	margin-right: 6vh;
+}
+.navbar a:after{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background:#313d4f;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition:.3s linear;
+}
+/*this method allows the menu buttons to animate*/
+.navbar a:hover:after{
+	visibility: visible;    
+    transform: scaleX(1);
+
+}
+.headerText h1{
+	font-weight: normal;
+}
+.headerText h2{
+	font-weight:lighter;
+}
+.header-name-discription-div{
+	padding: 80px 80px 20px 80px;
+	position: relative;
+	text-align: center;
+	color:white;	
+	font-size: 1.3em;
+}
+
+.home-content{
+	margin:auto;
+	min-height: 100%;
+	min-width: 550px;
+	max-width: 50%;
+	background-color: white;
+	height: auto;
+	height: 100%;
+}
+.homepage-profile{
+	display: inline-block;	
+}
+.home-img {
+	border: 2px solid black;
+	float: left;	
+}
+.home-p{
+	width: 60%;
+	float: left;
+	text-align: left;
+	padding-left:3%;
+	padding-bottom: 2%;
+	line-height: 1.5;
+	font-size:1.5;
+}
+.homepage-list-article ul{
+	margin-left: 1em;
+}
+.homepage-list-article li{
+	padding-top:.5em;
+}
+.homepage-p{
+	padding: 20px;
+	line-height: 1.8;
+}
+footer{
+	background-color:rgb(30,40,40);
+	color:#ededed;	
+	min-height:30vh;
+	padding-top:4%;
+}
+.footer-content-wrapper{
+	margin:auto;
+	min-width:600px;
+	max-width:50%;
+}
+.footer-profile{
+	max-width:300;
+	float:left;
+	line-height: 1.5;
+}
+.footer-avatar{
+	border:3px solid black;
+	background-color:white;
+	float:left;
+	margin-right:14px;
+	line-height: 0;	
+}
+.footer-bio-info{
+	max-width: 400px;
+}
+.footer-social-media{
+	float:left;
+	text-decoration: none;
+}
+.footer-social-media a{
+}
+.footer-social-media ul{
+	list-style: none;
+}
+.social-media-h2{
+}
+.social-media-img{
+	float: left;
+	background-color:white;
+	line-height: 0;
+}
