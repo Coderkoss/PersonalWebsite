@@ -1,6 +1,36 @@
+body{
+  font-family: "Courier New", Courier, monospace;
+}
 header {
   color: white;
 }
 header h4 {
   font-weight: lighter;
+}
+a{
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+a:after{
+  content:"";
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width:0px;
+  border-bottom: 2px solid white;
+  transition: 0.4s;
+  transform:translateZ(0);
+}
+a:hover:after{
+  width:95%;
+}
+a:hover{
+  color:white;
+}
+.nav-link{
+  color:white;
+}
+.nav-link:hover{
+  color:white;
 }
