@@ -1,17 +1,11 @@
 $(document).ready(function(){
-	//click keypress sublmit load
-	//$("p").css("background-color","yellow");
-	//$(window).scroll(function(){
-	//	$(".art-div-wrapper").css("right","0px")
-	//});
 	var index = 0;
-	carouse();
+	animateCarousel();
 	
 
-	function carouse(){
-		var i;
+	function animateCarousel(){
 		var x = document.getElementsByClassName("slides"); 
-		for(i=0;i<x.length;i++){
+		for(var i=0;i<x.length;i++){
 			x[i].style.display = "none";
 		}
 		index++;
