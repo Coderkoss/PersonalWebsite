@@ -3,8 +3,14 @@
   <head>
     <title>Home</title>
     <meta charset="utf-8" />
-    <meta name="msvalidate.01" content="CCC2FDC658323989871A7E4BA3016834" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
 
     <link rel="stylesheet" type="text/css" href="custom.css" />
 
@@ -37,30 +43,28 @@
     <header class="bg-info">
       <div class="container-md">
         <div class="row">
-          <div class=" col-sm-6 ">
+          <div class="col-sm-6">
             <h3 class="col-12 my-0">KEVIN WHITE</h3>
             <h4 class="col-12 fw-normal">Freelance Website/Game Developer</h4>
           </div>
-          
-          
-          <div class="col-6 d-none d-sm-flex nav flex-nowrap align-self-center justify-content-end ">
+
+          <div class="col-6 d-none d-sm-flex nav flex-nowrap align-self-center justify-content-end">
             <a class="nav-link" href="#">ABOUT</a>
             <a class="nav-link" href="#">PORTFOLIO</a>
             <a class="nav-link" href="#">CONTACT</a>
           </div>
         </div>
       </div>
-      
-      
+
       <div class="bg-info text-center mt-5 pt-5 pb-2">
         <h1>About Kevin</h1>
-        <p >Producing high-quality websites and exceptional user experience</p>
+        <p>Producing high-quality websites and exceptional user experience</p>
       </div>
     </header>
 
     <div class="container">
       <div class="row justify-content-center py-3">
-        <img src="images/myAvatar.png" class="col-4" id="avatar" alt="avatar"/>
+        <img src="images/myAvatar.png" class="col-4" id="avatar" alt="avatar" />
         <p class="col-8">
           <!--  I am a aspiring game developer and Front-end HTML5 website developer. I have been working as an independent developer for the last 6 years. I have experience working with development teams in Website development as well as Game development.  -->
           Motivated and skilled Developer/Information technology freelancer.
@@ -71,41 +75,73 @@
       </div>
 
       <!--demo http://ianlunn.co.uk/about/#wordpress-developer-->
-
-      <article class="homepage-list-article">
-        <p>Some of the technologies I have worked with include:</p>
-
-        <ul>
-          <li>Known Programming Languages</li>
-          <ul style="margin-left: 1em">
-            <li>C#</li>
-            <li>Java</li>
-            <li>Java Script</li>
-            <li>C++</li>
-            <li>C</li>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <li>Game Development</li>
-          <ul style="margin-left: 1em">
-            <li>Unity</li>
-            <li>Xna</li>
-            <li>Libgdx</li>
-            <li>DirectX</li>
-            <li>Gamemaker</li>
-          </ul>
-          <li>Misc</li>
-          <ul style="margin-left: 1em">
-            <li>SQL</li>
-            <li>Git</li>
-            <li>Batch programming</li>
-            <li>Photoshop</li>
-            <li>Gimp</li>
-            <li>Audacity</li>
-          </ul>
-        </ul>
+      <article class="row">
+        <h3>PORTFOLIO</h3>
+        <div class="card col-sm-12 col-md-4">
+          <div class="slides-container">
+            <img
+              class="slides"
+              src="images\capture.jpg"
+              style="display: block"
+            />
+            <img
+              class="slides"
+              src="images\capture1.jpg"
+              style="display: none"
+            />
+            <img
+              class="slides"
+              src="images\capture2.jpg"
+              style="display: none"
+            />
+            <img
+              class="slides"
+              src="images\capture3.jpg"
+              style="display: none"
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-sm-12 col-md-4">
+          <video
+            loop=""
+            muted=""
+            autoplay=""
+            poster="img/videoframe.jpg"
+            class="slides-container"
+            data-video="0"
+          >
+            <source src="videos\TTSTrailer.mp4" type="video/mp4" />
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-sm-12 col-md-4">
+          <img class="card-img-top" src="..." alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </article>
+      
       <p class="homepage-p">
         I strive to make the highest quality responsive Websites possible. I
         ensure that all of my projects are well designed and easily
@@ -179,8 +215,11 @@
         database software in order to store information. I have also used 3D
         software to model and animate 3D as well as 2D objects.
       </p>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"
+      ></script>
     </div>
 
     <footer>
