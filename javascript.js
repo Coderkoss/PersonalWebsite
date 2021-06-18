@@ -1,17 +1,9 @@
-$(document).ready(function(){
-	var index = 0;
-	animateCarousel();
-	
 
-	function animateCarousel(){
-		var x = document.getElementsByClassName("slides"); 
-		for(var i=0;i<x.length;i++){
-			x[i].style.display = "none";
-		}
-		index++;
-		if(index > x.length){index  = 1}
-		x[index - 1].style.display = "block";
-		setTimeout(carouse,4000);	
-	}
+var card1Images = new Array("images/capture.jpg","images/capture1.jpg","images/capture2.jpg","images/capture3.jpg");
+var card3Images = new Array("images/cpp-img.png","images/gimp.jpg","images/libgdx-img.jpg","images/html5.png");
 
-});
+
+
+window.onload = function(){
+
+};

@@ -13,8 +13,8 @@
     />
 
     <link rel="stylesheet" type="text/css" href="custom.css" />
-    <script src="javaScript.js"></script>
-    
+    <script src="javascript.js"></script>
+
     <script>
       (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
@@ -49,16 +49,7 @@
             <h4 class="col-12 fw-normal">Freelance Website/Game Developer</h4>
           </div>
 
-          <div
-            class="
-              col-6
-              d-none d-sm-flex
-              nav
-              flex-nowrap
-              align-self-center
-              justify-content-end
-            "
-          >
+          <div class="col-6 d-none d-sm-flex nav flex-nowrap align-self-center justify-content-end">
             <a class="nav-link" href="#">ABOUT</a>
             <a class="nav-link" href="#">PORTFOLIO</a>
             <a class="nav-link" href="#">CONTACT</a>
@@ -88,27 +79,13 @@
       <article class="row">
         <h3>PORTFOLIO</h3>
         <div class="card col-sm-12 col-md-4">
-          <div class="slides-container">
-            <img
-              class="slides"
-              src="images\capture.jpg"
-              style="display: block"
-            />
-            <img
-              class="slides"
-              src="images\capture1.jpg"
-              style="display: none"
-            />
-            <img
-              class="slides"
-              src="images\capture2.jpg"
-              style="display: none"
-            />
-            <img
-              class="slides"
-              src="images\capture3.jpg"
-              style="display: none"
-            />
+          <div class="slides-container carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">              
+              <div class="carousel-item active"><img id="cardImg1" src="images/capture.jpg"/> </div>
+              <div class="carousel-item "><img id="cardImg1" src="images/capture.jpg"/> </div>
+              <div class="carousel-item "><img id="cardImg1" src="images/capture.jpg"/> </div>
+              <div class="carousel-item "><img id="cardImg1" src="images/capture.jpg"/> </div>              
+            </div>
           </div>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -140,7 +117,7 @@
           </div>
         </div>
         <div class="card col-sm-12 col-md-4">
-          <img class="card-img-top" src="..." alt="Card image cap" />
+          <img class="cardImg3" src="images/c-sharp.jpg" alt="Card image cap" />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
