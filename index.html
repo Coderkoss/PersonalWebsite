@@ -41,23 +41,23 @@
   </head>
 
   <body>
-    <header class="bg-info">
-      <div class="container-md">
-        <div class="row">
-          <div class="col-sm-6">
-            <h3 class="col-12 my-0">KEVIN WHITE</h3>
-            <h4 class="col-12 fw-normal">Freelance Website/Game Developer</h4>
-          </div>
-
-          <div class="col-6 d-none d-sm-flex nav flex-nowrap align-self-center justify-content-end">
-            <a class="nav-link" href="#">ABOUT</a>
-            <a class="nav-link" href="#">PORTFOLIO</a>
-            <a class="nav-link" href="#">CONTACT</a>
+    <header class="bg-info">      
+        <div class="container-md">
+          <div class="row fixed-top bg-info ">
+            <div class="col-sm-6">
+              <h3 class="col-12 my-0">KEVIN WHITE</h3>
+              <h4 class="col-12 fw-normal">Freelance Website/Game Developer</h4>
+            </div>
+            <div class="col-6 d-none d-sm-flex nav flex-nowrap align-self-center justify-content-end">
+              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="#">CONTACT</a>
+            </div>
           </div>
         </div>
-      </div>
+      
 
-      <div class="bg-info text-center mt-5 pt-5 pb-2">
+      <div class="bg-info text-center about-header">
         <h1>About Kevin</h1>
         <p>Producing high-quality websites and exceptional user experience</p>
       </div>
@@ -74,7 +74,21 @@
           several game projects under my belt.
         </p>
       </div>
-
+      <div class="row discription">
+        <p class="homepage-p">
+          I strive to make the highest quality responsive Websites possible. I
+          ensure that all of my projects are well designed and easily
+          maintainable. This allows you to build up your website as your company
+          expands.
+        </p>
+        <p class="homepage-p">
+          I find that the attention to detail comes into play when building
+          Websites as well as Game development. Knowledge and experience is needed
+          to make a responsive website look professional and knowing how to place
+          elements is a must. I am very comfortable with both, placing elements
+          and moving elements around.
+        </p>
+      </div>
       <!--demo http://ianlunn.co.uk/about/#wordpress-developer-->
       <article class="row">
         <h3>PORTFOLIO</h3>
@@ -117,7 +131,15 @@
           </div>
         </div>
         <div class="card col-sm-12 col-md-4">
-          <img class="cardImg3" src="images/c-sharp.jpg" alt="Card image cap" />
+
+          <div class="slides-container carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img class="cardImg3" src="images/c-sharp.jpg" alt="Card image cap" /></div>
+              <div class="carousel-item "><img class="cardImg3" src="images/c-sharp.jpg" alt="Card image cap" /></div>
+              <div class="carousel-item "><img class="cardImg3" src="images/c-sharp.jpg" alt="Card image cap" /></div>
+            </div>
+          </div>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -129,20 +151,7 @@
         </div>
       </article>
 
-      <p class="homepage-p">
-        I strive to make the highest quality responsive Websites possible. I
-        ensure that all of my projects are well designed and easily
-        maintainable. This allows you to build up your website as your company
-        expands.
-      </p>
-
-      <p class="homepage-p">
-        I find that the attention to detail comes into play when building
-        Websites as well as Game development. Knowledge and experience is needed
-        to make a responsive website look professional and knowing how to place
-        elements is a must. I am very comfortable with both, placing elements
-        and moving elements around.
-      </p>
+     
 
       <h1>Skills</h1>
 
