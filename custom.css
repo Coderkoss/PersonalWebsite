@@ -31,6 +31,7 @@ a:hover:after{
   width:95%;
 }
 a:hover{
+
   color:white;
 }
 .nav-link{
@@ -45,14 +46,22 @@ a:hover{
   min-width:fit-content;
   
 }
-.slides-container video{
-  max-width: 320px;
-  min-width: 180px;
-  min-height: 1600px;
+video{
+  
 }
 .slides-container img{
-  max-width:320px;
-  min-height: 160px;
-  min-width: 180px;
-  max-height:200px;
+    width: 100%;
+    max-height: 220px;  
+}
+.center{
+  margin-left: auto;
+  margin-right:auto;
+  
+}
+footer{
+  background-color: rgb(30,40,40);
+  color: white;
+}
+footer a{
+  color:white;
 }
