@@ -65,3 +65,13 @@ footer{
 footer a{
   color:white;
 }
+#footer-avatar{
+  width: 150px;
+  height: 140px;
+}
+.social-img{
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: white;
+}
