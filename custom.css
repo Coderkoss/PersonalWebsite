@@ -17,6 +17,12 @@ a{
   position: relative;
   color: white;
 }
+#avatar {
+  width: 150px;
+  height: 150px;
+  min-height: 50px;
+  min-width: 50px;
+}
 a:after{
   content:"";
   position: absolute;
@@ -68,6 +74,9 @@ footer a{
 #footer-avatar{
   width: 150px;
   height: 140px;
+}
+.no-wrap{
+  flex-wrap:nowrap;
 }
 .social-img{
   width: 50px;
