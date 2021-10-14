@@ -18,10 +18,12 @@ a{
   color: white;
 }
 #avatar {
-  width: 150px;
-  height: 150px;
-  min-height: 50px;
-  min-width: 50px;
+  
+  min-height: 25px;
+  min-width: 25px;
+  max-height: 150px;
+  max-width: 150px;
+  
 }
 a:after{
   content:"";
@@ -46,15 +48,8 @@ a:hover{
 .nav-link:hover{
   color:white;
 }
-#avatar{
-  max-width: 150px;
-  max-height:200px;
-  min-width:fit-content;
-  
-}
-video{
-  
-}
+
+
 .slides-container img{
     width: 100%;
     max-height: 220px;  
