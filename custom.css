@@ -1,11 +1,14 @@
+*{
+  font-family: sans-serif;
+}
 body{
-  /*font-family: "Courier New", Courier, monospace;*/
-  font-family:cursive;
 }
 header {
   color: white;
-  background-color: teal;
-  
+  background-color: rgb(54, 104, 138);
+}
+.fixed-navbar{
+  background-color: rgb(54, 104, 138);
 }
 .about-header{  
   padding-top:180px;
@@ -32,7 +35,7 @@ a:after{
   bottom:0;
   left: 0;
   width:0px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(2, 1, 87);
   transition: 0.4s;
   transform:translateZ(0);
 }
@@ -45,9 +48,11 @@ a:hover{
 }
 .nav-link{
   color:white;
+  
 }
 .nav-link:hover{
   color:white;
+  
 }
 
 
